@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotelprogram.InventoryController">
+   <children>
+      <Text layoutX="96.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="King Beds:" />
+      <Text layoutX="96.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Queen Beds:" />
+      <Text layoutX="305.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Suites:" />
+      <Text layoutX="305.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Waterfront View:" />
+      <Label fx:id="numberOfKingBedsAvailable" layoutX="186.0" layoutY="116.0" text="Label" />
+      <Label fx:id="numberOfQueenBedsAvailable" layoutX="186.0" layoutY="154.0" text="Label" />
+      <Label fx:id="numberOfSuitesAvailable" layoutX="413.0" layoutY="116.0" text="Label" />
+      <Label fx:id="numberOfWaterfrontViewsAvailable" layoutX="413.0" layoutY="154.0" text="Label" />
+      <Text layoutX="250.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inventory Available" />
+      <Button fx:id="backBtn" layoutX="28.0" layoutY="341.0" mnemonicParsing="false" onAction="#onClickCloseWindow" text="Back" />
+   </children>
+</AnchorPane>

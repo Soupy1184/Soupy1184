@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotelprogram.AccountController">
+   <children>
+      <ListView fx:id="chargesList" layoutX="-2.0" prefHeight="234.0" prefWidth="347.0" />
+      <Button fx:id="postChargeBtn" layoutX="253.0" layoutY="259.0" mnemonicParsing="false" onAction="#onClickPostCharge" prefHeight="25.0" prefWidth="92.0" text="Post Charge" />
+      <TextField fx:id="chargeAmount" layoutX="84.0" layoutY="259.0" prefHeight="25.0" prefWidth="74.0" promptText="Amount" />
+      <TextField fx:id="chargeAccount" layoutX="172.0" layoutY="259.0" prefHeight="25.0" prefWidth="58.0" promptText="Account" />
+      <TextField fx:id="debitAmount" layoutX="84.0" layoutY="302.0" prefHeight="25.0" prefWidth="74.0" promptText="Amount" />
+      <Button fx:id="debitAccountBtn" layoutX="253.0" layoutY="302.0" mnemonicParsing="false" onAction="#onClickDebitAccount" text="Debit Account" />
+      <Text layoutX="365.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Balance: " />
+      <Label fx:id="balanceDisplay" layoutX="479.0" layoutY="217.0" />
+      <Button fx:id="backBtn" layoutX="24.0" layoutY="346.0" mnemonicParsing="false" onAction="#onClickCloseWindow" text="Back" />
+   </children>
+</AnchorPane>

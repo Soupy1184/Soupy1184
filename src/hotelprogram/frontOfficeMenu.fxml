@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotelprogram.FrontOfficeMenuController">
+   <children>
+      <Text layoutX="252.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Front Office Menu" />
+      <Button id="resMenuBtn" fx:id="resMenuBtn" layoutX="243.0" layoutY="175.0" mnemonicParsing="false" onAction="#onClickOpenResMenu" text="Reservations Menu" />
+      <Button id="repMenuBtn" fx:id="repMenuBtn" layoutX="256.0" layoutY="227.0" mnemonicParsing="false" onAction="#onClickOpenRepMenu" text="Reports Menu" />
+      <Button fx:id="regMenuBtn" layoutX="245.0" layoutY="123.0" mnemonicParsing="false" onAction="#onClickOpenRegMenu" text="Registration Menu" />
+   </children>
+</AnchorPane>

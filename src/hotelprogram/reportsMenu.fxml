@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotelprogram.ReportsMenuController">
+   <children>
+      <Button fx:id="arrivalsListBtn" layoutX="255.0" layoutY="115.0" mnemonicParsing="false" onAction="#onClickOpenArrivalsList" prefHeight="25.0" prefWidth="91.0" text="Arrivals List" />
+      <Button fx:id="departuresListBtn" layoutX="255.0" layoutY="175.0" mnemonicParsing="false" onAction="#onClickDeparturesList" text="Departure List" />
+      <Text layoutX="263.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reports Menu" />
+      <Button fx:id="backBtn" layoutX="41.0" layoutY="337.0" mnemonicParsing="false" onAction="#onClickCloseWindow" text="Back" />
+   </children>
+</AnchorPane>
